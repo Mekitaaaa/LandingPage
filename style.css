@@ -1,0 +1,99 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f6;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background: #c9a9a6;
+    color: #0c0707;
+    padding: 1rem 0;
+    display:fle;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    width: 50px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #312d2d;
+    text-decoration: none;
+}
+
+header .register-button {
+    background: #ff6347;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+header .register-button:hover {
+    background: #ff4500;
+}
+
+/* Main content styles */
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+main h1 {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+main p {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+main .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+main .btn {
+    background: #333;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+main .btn:hover {
+    background: #555;
+}
+
+/* Footer styles */
+footer {
+    background: #e9e7e7;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer .footer-graphic img {
+    width: 100px;
+}
